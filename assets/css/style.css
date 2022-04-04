@@ -27,6 +27,7 @@ li{
 .header_container{
     width: 1200px;
     margin: 0 auto;
+    background-color: white;
 }
 .container{
     width: 800px;
@@ -34,7 +35,10 @@ li{
 }
 /* header */
 .header{
+    background-color: white;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
 }
 .header_wrapper{
     display: flex;
@@ -62,9 +66,14 @@ li{
     font-size: 14px;
     color: #353732;
 }
+
+.menu_link:hover{
+    color: orange;
+    transition: 0.5s;
+}
 /* intro */
 .intro{
-    padding: 100px 0 110px 0;
+    padding: 141px 0 110px 0;
 }
 .intro_wrapper{
     display: block;
@@ -95,6 +104,11 @@ li{
     flex-direction: column;
     margin-right: 16px;
 }
+
+.section1_bigblock:hover{
+    filter: drop-shadow(0 0 10px #888484);
+}
+
 .section1_bigblock_texts{
     padding: 20px 23px 29.58px 20px;
     background-color: #FFFFFF;
@@ -137,6 +151,11 @@ li{
 .section1_smallblock:last-child{
     margin-bottom: 0px;
 }
+
+.section1_smallblock:hover{
+    filter: drop-shadow(0 0 10px #888484);
+}
+
 .section1_smallblock_texts{
     padding: 20px 72px 29.73px 20px;
     background-color: #FFFFFF;
@@ -172,6 +191,11 @@ li{
     flex-direction: column;
     margin-right: 16px;
 }
+
+.section1_underblock:hover{
+    filter: drop-shadow(0 0 10px #b8b8b8);
+}
+
 .section1_underblock:last-child{
     margin-right: 0px;
 }
@@ -209,6 +233,11 @@ li{
     flex-direction: column;
     margin-right: 17px;
 }
+
+.section1_lastblock:hover{
+    filter: drop-shadow(0 0 6px #f7dddd);
+}
+
 .section1_lastblock:last-child{
     margin-right: 0px;
 }
